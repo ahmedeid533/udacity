@@ -14,7 +14,7 @@ This Project rquired from udacity about page have sections with buttons head to 
 # Installation
 [(Back to top)](#table-of-contents)
 
-simply hit this [(Button)](https://github.com/ahmedeid533/udacity/archive/refs/heads/main.zip) and it will be downloaded as .zip File 
+simply hit this [(Button)](#table-of-contents) and it will be downloaded as .zip File 
 extarct it then click index.html and hope u enjoy the page.
 
 # Development
@@ -33,7 +33,7 @@ this Project have many Features like
 ### Adding new features or fixing bugs
 [(Back to top)](#table-of-contents)
 
-open for critique and if you see any bugs please tell me thanks in advance for your time
+open for critique and if you see any bugs blease tell me thanks in advance for your time
 
 # License
 [(Back to top)](#table-of-contents)

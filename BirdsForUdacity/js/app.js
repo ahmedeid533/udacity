@@ -76,30 +76,32 @@ document.addEventListener("scroll",()=>
 let tog = false ;
 let selections = document.querySelectorAll(".section");
 let Buttons = document.querySelectorAll(".button");
-for (let i = 0 ; i <= 4 ; i++)
+let counter = 0;
+for (let selected of selections)
 {
-  selections[i].addEventListener("click",() =>
+  selected.addEventListener("click",() =>
   {
     if (tog == false)
     {
-      selections[i].nextElementSibling.style.display = "none";
+      selected.nextElementSibling.style.display = "none";
       tog = true ;
-      selections[i].style.cssText = 'box-shadow: 2px 2px 5px rgb(0, 0, 0.2);';
+      selected.style.cssText = 'box-shadow: 2px 2px 5px rgb(0, 0, 0.2);';
     }
     else if (tog == true)
     {
-      selections[i].nextElementSibling.style.display = "block";
+      selected.nextElementSibling.style.display = "block";
       tog = false ;
-      selections[i].style.cssText ='box-shadow: 2px 2px -5px rgb(0, 0, 0.2);';
+      selected.style.cssText ='box-shadow: 2px 2px -5px rgb(0, 0, 0.2);';
     }
   });
   // OtherWise Making A new For Loop For Nothing I Used The Same For Loop For Collapsing 
   // To Make Evry Section Button To Head To It's Section (maping) 
-  Buttons[i+2].addEventListener("click",()=>
+  Buttons[counter+2].addEventListener("click",()=>
   {
-    let posY = selections[i].offsetTop-35 ;
+    let posY = selected.offsetTop-35 ;
     scroll(0,posY)
   })
+  counter += 1;
 }
 // Please Comment Me How Could It Be Better Even if This Project Accepted Thanks For You Time 
 
