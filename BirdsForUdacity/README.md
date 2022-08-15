@@ -28,7 +28,7 @@ this Project have many Features like
 - and The flying Bird for more entertainment XD.
 - color for every section relate to the sections name like blue for ice gold for desert etc...
 - lines that sparate the sections 
-- and more u could explore them your self 
+- and more u could explore them yourself 
 
 ### Adding new features or fixing bugs
 [(Back to top)](#table-of-contents)
