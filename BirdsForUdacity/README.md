@@ -21,14 +21,14 @@ extarct it then click index.html and hope u enjoy the page.
 [(Back to top)](#table-of-contents)
 
 this Project have many Features like 
-*slide bar To sellect the section using attriputes mouseover , mouseleave.
-*hover added for every button make background of button white
-*every button head to it's section with smooth scrolling
-*collabsale sections
-*and The flying Bird for more entertainment XD.
-*color for every section relate to the sections name like blue for ice gold for desert etc...
-*lines that sparate the sections 
-*and more u could explore them your self 
+- slide bar To sellect the section using attriputes mouseover , mouseleave.
+- hover added for every button make background of button white
+- every button head to it's section with smooth scrolling
+- collabsale sections
+- and The flying Bird for more entertainment XD.
+- color for every section relate to the sections name like blue for ice gold for desert etc...
+- lines that sparate the sections 
+- and more u could explore them your self 
 
 ### Adding new features or fixing bugs
 [(Back to top)](#table-of-contents)
